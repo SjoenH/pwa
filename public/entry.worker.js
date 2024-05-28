@@ -58,7 +58,8 @@ const route1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
 }, Symbol.toStringTag, { value: "Module" }));
 const assets = [
   "/entry.worker.js",
-  "/favicon.ico"
+  "/favicon.ico",
+  "/manifest.json"
 ];
 const routes = {
   "root": {

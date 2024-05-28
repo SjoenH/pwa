@@ -49,7 +49,7 @@ export default function Index() {
                 </tr>
                 </tbody>
             </table>
-            <h2>Themes</h2>
+            <h2 className="font-bold">Themes</h2>
             <p>todo: Add support for switchable themes</p>
             <label className="swap swap-rotate">
 

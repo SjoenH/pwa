@@ -8,12 +8,20 @@ import {
 
 import type { LinksFunction } from "@remix-run/node";
 import stylesheet from "~/tailwind.css?url";
+import {useEffect} from "react";
+import { themeChange } from "theme-change";
 
 export const links: LinksFunction = () => [
     { rel: "stylesheet", href: stylesheet },
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
+
+    useEffect(() => {
+        themeChange(false)
+        // 👆 false parameter is required for react project
+    }, [])
+
   return (
     <html lang="en">
       <head>
