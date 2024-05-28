@@ -15,27 +15,42 @@ export default function Index() {
             <p>{`Normally, i don't like to ship PWAs, but there are times where it's the best option. For those times, I've created a Remix PWA starter template.`}</p>
             <h2 className="font-bold">{`Features`}</h2>
             <table className="table">
+                <thead>
+                <tr>
+                    <th>Library</th>
+                    <th>Link</th>
+                    <th>Description</th>
+                </tr>
+                </thead>
+                <tbody>
                 <tr>
                     <td>Remix</td>
                     <td>
                         <Link className="link" to="https://remix.run">https://remix.run</Link>
                     </td>
+                    <td>Framework</td>
                 </tr>
                 <tr>
                     <td>Remix PWA</td>
                     <td><Link className="link"
                               to="https://remix-pwa.run/docs/main/quick-start">https://remix-pwa.run/docs/main/quick-start</Link>
                     </td>
+                    <td>Remix PWA plugin</td>
                 </tr>
                 <tr>
                     <td>TailwindCSS</td>
                     <td><Link className="link" to="https://tailwindcss.com">https://tailwindcss.com</Link></td>
+                    <td>Utility-first CSS framework</td>
                 </tr>
                 <tr>
                     <td>DaisyUI</td>
                     <td><Link className="link" to="https://daisyui.com">https://daisyui.com</Link></td>
+                    <td>Component library - Write less Tailwind</td>
                 </tr>
+                </tbody>
             </table>
+            <h2>Themes</h2>
+            <p>todo: Add support for switchable themes</p>
             <label className="swap swap-rotate">
 
                 {/* this hidden checkbox controls the state */}
