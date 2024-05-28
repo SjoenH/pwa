@@ -3,8 +3,8 @@ import {Link} from "@remix-run/react";
 
 export const meta: MetaFunction = () => {
     return [
-        {title: "Remix PWA Starter"},
-        {name: "description", content: "A Remix PWA starter template"},
+        {title: "Henry's Remix PWA Starter"},
+        {name: "description", content: "An opinionated PWA template composed by Henry"},
     ];
 };
 

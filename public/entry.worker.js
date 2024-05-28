@@ -57,9 +57,14 @@ const route1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   default: worker_runtime_default
 }, Symbol.toStringTag, { value: "Module" }));
 const assets = [
+  "/android-chrome-192x192.png",
+  "/android-chrome-512x512.png",
   "/entry.worker.js",
   "/favicon.ico",
-  "/manifest.json"
+  "/manifest.json",
+  "/maskable_icon.png",
+  "/richer-install-assets/richer-install-screenshot-narrow.png",
+  "/richer-install-assets/richer-install-screenshot-wide.png"
 ];
 const routes = {
   "root": {
